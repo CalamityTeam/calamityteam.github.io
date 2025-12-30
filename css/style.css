@@ -4308,6 +4308,42 @@ footer p a:hover {
     transform: none;
   }
 
+  .hero h1 {
+    text-shadow: 0 0 15px var(--accent-glow);
+  }
+
+  .hero::before {
+    background: radial-gradient(
+      ellipse at center top,
+      rgba(var(--accent-r), var(--accent-g), var(--accent-b), 0.15) 0%,
+      transparent 50%
+    );
+  }
+
+  .blog-section::before {
+    background: linear-gradient(
+      180deg,
+      rgba(10, 10, 15, 0.3) 0%,
+      transparent 30%,
+      transparent 70%,
+      rgba(10, 10, 15, 0.2) 100%
+    );
+    background-size: auto;
+  }
+
+  .blog-section::after {
+    display: none;
+  }
+
+  .blog-glow {
+    animation: none;
+    opacity: 0.5;
+  }
+
+  .blog-decor {
+    display: none;
+  }
+
   .footer-led-strip {
     animation: none;
   }
