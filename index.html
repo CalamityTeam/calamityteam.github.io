@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" class="no-transitions">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calamity Mod</title>
+    <meta name="description" content="Download the Calamity Mod, the #1 mod for Terraria." />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://calamitymod.com/" />
+    <meta property="og:title" content="Calamity Mod | Official Website" />
+    <meta property="og:description" content="Download the Calamity Mod, the #1 mod for Terraria." />
+    <meta property="og:image" content="https://calamitymod.com/img/logo.svg" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://calamitymod.com/" />
+    <meta name="twitter:title" content="Calamity Mod | Official Website" />
+    <meta name="twitter:description" content="Download the Calamity Mod, the #1 mod for Terraria." />
+    <meta name="twitter:image" content="https://calamitymod.com/img/logo.svg" />
+    
+    <link rel="icon" type="image/png" href="/img/favicon.png" />
+    <script>
+      (function () {
+        var theme = localStorage.getItem("calamity-theme") || "devouring";
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html" class="logo">
+          <img src="/img/logo.svg" alt="Calamity Mod" />
+        </a>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li>
+            <a href="download.html">Download</a>
+          </li>
+          <li>
+            <a href="music.html">Music</a>
+          </li>
+          <li>
+            <a href="https://discord.gg/calamity" target="_blank">Discord</a>
+          </li>
+          <li>
+            <a
+              href="https://calamitymod.wiki.gg/wiki/Calamity_Mod_Wiki"
+              target="_blank"
+              >Wiki</a
+            >
+          </li>
+          <li>
+            <a href="https://www.patreon.com/CalamityMod" target="_blank"
+              >Patreon</a
+            >
+          </li>
+        </ul>
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-blurb">
+        <div class="container">
+          <h1 class="flame-text">IGNITE A CRUEL WORLD.</h1>
+          <p class="hero-tagline">
+            Take on Terraria's largest mod with dozens of brand new challenges.
+            Install with one click through
+            <a
+              href="https://store.steampowered.com/app/1281930/tModLoader/"
+              target="_blank"
+              >tModLoader</a
+            >
+            on Steam.
+          </p>
+        </div>
+      </section>
+
+      <section class="blog-section">
+        <div class="blog-decor blog-decor-left"></div>
+        <div class="blog-decor blog-decor-right"></div>
+        <div class="blog-glow"></div>
+        <div class="container">
+          <div class="blog-layout">
+            <div class="blog-posts">
+              <h2>Latest Posts</h2>
+              <div id="posts-list" class="posts-grid">
+                <div class="loading">Glassing Ilmeris...</div>
+              </div>
+            </div>
+            <div class="blog-trailer">
+              <h2>LATEST TRAILER</h2>
+              <div class="trailer-frame">
+                <iframe 
+                  src="https://www.youtube.com/embed/R9wYNI5y7bw" 
+                  title="Calamity Mod Trailer" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen>
+                </iframe>
+              </div>
+              <p class="trailer-description">
+                The trailer for the latest released major update, Bountiful Harvest.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="links-section">
+        <div class="links-grid">
+          <div class="link-card link-card-download">
+            <span class="link-label">Official Download</span>
+            <h3>Download and play Calamity!</h3>
+            <a
+              href="https://steamcommunity.com/sharedfiles/filedetails/?id=2824688072"
+              class="link-btn"
+              target="_blank"
+              >Download Calamity Mod</a
+            >
+          </div>
+          <div class="link-card link-card-discord">
+            <span class="link-label">Official Discord</span>
+            <h3>Join the Discord...</h3>
+            <p class="link-subtitle">
+              ...and chat with 245,000+ other Calamity fans.
+            </p>
+            <a
+              href="https://discord.gg/calamity"
+              class="link-btn"
+              target="_blank"
+              >Join the Discord</a
+            >
+          </div>
+          <div class="link-card link-card-music">
+            <span class="link-label">Official Download</span>
+            <h3>Download the vanilla music expansion for Calamity.</h3>
+            <a
+              href="https://steamcommunity.com/sharedfiles/filedetails/?id=2816188633"
+              class="link-btn"
+              target="_blank"
+              >Download VCMM</a
+            >
+          </div>
+          <div class="link-card link-card-wiki">
+            <span class="link-label">Official Wiki</span>
+            <h3>Browse through the official wiki.</h3>
+            <a
+              href="https://calamitymod.wiki.gg/wiki/Calamity_Mod_Wiki"
+              class="link-btn"
+              target="_blank"
+              >Calamity Wiki</a
+            >
+          </div>
+          <div class="link-card link-card-youtube">
+            <span class="link-label">Official Videos</span>
+            <h3>Watch us on Youtube!</h3>
+            <a
+              href="https://www.youtube.com/CalamityMod"
+              class="link-btn"
+              target="_blank"
+              >Visit Channel</a
+            >
+          </div>
+          <div class="link-card link-card-soundtrack">
+            <span class="link-label">Follow Us</span>
+            <h3>Listen to the Soundtrack.</h3>
+            <a
+              href="https://materia.to/calamity"
+              class="link-btn"
+              target="_blank"
+              >Listen to the OST</a
+            >
+          </div>
+          <div class="link-card link-card-wide link-card-patreon">
+            <span class="link-label">We appreciate your Support!</span>
+            <h3>
+              Support the team of developers behind Calamity - Become a Patron!
+            </h3>
+            <a
+              href="https://www.patreon.com/CalamityMod"
+              class="link-btn"
+              target="_blank"
+              >Visit our Patreon</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-led-strip"></div>
+      <div class="container">
+        <div class="footer-content">
+          <img
+            src="/img/logo.svg"
+            alt="Calamity Mod"
+            class="footer-logo"
+          />
+          <p>
+            The official website of the Calamity Mod for
+            <a href="https://terraria.org/" target="_blank">Terraria</a>.
+            Terraria and all its content is copyrighted by Re-Logic.
+          </p>
+          <p class="credits">
+            Art by
+            <a href="https://x.com/NiitroDS" target="_blank">Nitro</a>. Original
+            site by
+            <a href="https://twitter.com/loohney" target="_blank">Loohney</a>.
+          </p>
+          <div class="footer-links">
+            <a href="https://www.patreon.com/CalamityMod" target="_blank"
+              >Patreon</a
+            >
+            <a href="https://github.com/CalamityTeam/CalamityModPublic" target="_blank">GitHub</a>
+            <a href="https://youpads.com/calamity" target="_blank">Merch</a>
+            <a
+              href="https://www.gimmeswag.com/collections/calamity-mod"
+              target="_blank"
+              >Plushies</a
+            >
+          </div>
+          <div class="footer-emails">
+            <div class="footer-email">
+              <span class="email-label">General inquiries:</span>
+              <a href="mailto:calamitymodteam@gmail.com">calamitymodteam@gmail.com</a>
+            </div>
+            <div class="footer-email">
+              <span class="email-label">Business inquiries:</span>
+              <a href="mailto:calamitymodbusiness@gmail.com">calamitymodbusiness@gmail.com</a>
+            </div>
+          </div>
+          <div class="theme-selector">
+            <span class="theme-selector-label">Theme</span>
+            <div class="theme-options">
+              <div class="theme-option active" data-theme="calamitous">
+                <span class="theme-dot"></span>
+                Calamitous
+              </div>
+              <div class="theme-option" data-theme="devouring">
+                <span class="theme-dot"></span>
+                Devouring
+              </div>
+               <div class="theme-option" data-theme="abyssal">
+                <span class="theme-dot"></span>
+                Abyssal
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/blog.js"></script>
+    <script src="js/theme.js"></script>
+  </body>
+</html>

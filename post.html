@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" class="no-transitions">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post - Calamity Mod</title>
+    <meta name="description" content="News and updates from the Calamity Mod team." />
+    
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://calamitymod.com/post.html" />
+    <meta property="og:title" content="Post - Calamity Mod" />
+    <meta property="og:description" content="News and updates from the Calamity Mod team." />
+    <meta property="og:image" content="https://calamitymod.com/img/logo.svg" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://calamitymod.com/post.html" />
+    <meta name="twitter:title" content="Post - Calamity Mod" />
+    <meta name="twitter:description" content="News and updates from the Calamity Mod team." />
+    <meta name="twitter:image" content="https://calamitymod.com/img/logo.svg" />
+    
+    <link rel="icon" type="image/png" href="/img/favicon.png" />
+    <script>
+      (function () {
+        var theme = localStorage.getItem("calamity-theme") || "devouring";
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html" class="logo">
+          <img src="/img/logo.svg" alt="Calamity Mod" />
+        </a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="download.html">Download</a></li>
+          <li><a href="music.html">Music</a></li>
+          <li>
+            <a href="https://discord.gg/calamity" target="_blank">Discord</a>
+          </li>
+          <li>
+            <a
+              href="https://calamitymod.wiki.gg/wiki/Calamity_Mod_Wiki"
+              target="_blank"
+              >Wiki</a
+            >
+          </li>
+          <li>
+            <a href="https://www.patreon.com/CalamityMod" target="_blank"
+              >Patreon</a
+            >
+          </li>
+        </ul>
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <article class="post-container">
+        <div class="container">
+          <a href="index.html" class="back-link">Return to Azafure...</a>
+          <div id="post-content" class="post-content">
+            <div class="loading">Loading post...</div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <div class="footer-led-strip"></div>
+      <div class="container">
+        <div class="footer-content">
+          <img
+            src="/img/logo.svg"
+            alt="Calamity Mod"
+            class="footer-logo"
+          />
+          <p>
+            The official website of the Calamity Mod for
+            <a href="https://terraria.org/" target="_blank">Terraria</a>.
+            Terraria and all its content is copyrighted by Re-Logic.
+          </p>
+          <p class="credits">
+            Art by
+            <a href="https://x.com/NiitroDS" target="_blank">Nitro</a>. Original
+            site by
+            <a href="https://twitter.com/loohney" target="_blank">Loohney</a>.
+          </p>
+          <div class="footer-links">
+            <a href="https://www.patreon.com/CalamityMod" target="_blank"
+              >Patreon</a
+            >
+            <a
+              href="https://github.com/CalamityTeam/CalamityModPublic"
+              target="_blank"
+              >GitHub</a
+            >
+            <a href="https://youpads.com/calamity" target="_blank">Merch</a>
+            <a
+              href="https://www.gimmeswag.com/collections/calamity-mod"
+              target="_blank"
+              >Plushies</a
+            >
+          </div>
+          <div class="footer-emails">
+            <div class="footer-email">
+              <span class="email-label">General inquiries:</span>
+              <a href="mailto:calamitymodteam@gmail.com">calamitymodteam@gmail.com</a>
+            </div>
+            <div class="footer-email">
+              <span class="email-label">Business inquiries:</span>
+              <a href="mailto:calamitymodbusiness@gmail.com">calamitymodbusiness@gmail.com</a>
+            </div>
+          </div>
+          <div class="theme-selector">
+            <span class="theme-selector-label">Theme</span>
+            <div class="theme-options">
+              <div class="theme-option active" data-theme="calamitous">
+                <span class="theme-dot"></span>
+                Calamitous
+              </div>
+              <div class="theme-option" data-theme="devouring">
+                <span class="theme-dot"></span>
+                Devouring
+              </div>
+              <div class="theme-option" data-theme="abyssal">
+                <span class="theme-dot"></span>
+                Abyssal
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/blog.js"></script>
+    <script src="js/theme.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const urlParams = new URLSearchParams(window.location.search);
+        const postSlug = urlParams.get("post");
+
+        if (postSlug) {
+          loadPost(postSlug);
+        } else {
+          document.getElementById("post-content").innerHTML =
+            '<p>Post not found. <a href="index.html">Return where you came!</a></p>';
+        }
+      });
+
+      async function loadPost(slug) {
+        try {
+          const response = await fetch(`posts/${slug}.md`);
+          if (!response.ok) throw new Error("Post not found");
+
+          const markdown = await response.text();
+          const { meta, content } = parsePostContent(markdown);
+
+          document.title = `${meta.title} - Calamity Mod Blog`;
+
+          const postHtml = `
+                    <div class="post-body">
+                        ${marked.parse(content)}
+                    </div>
+                `;
+
+          document.getElementById("post-content").innerHTML = postHtml;
+        } catch (error) {
+          document.getElementById("post-content").innerHTML = `
+                    <p>Error loading post: ${error.message}</p>
+                    <p><a href="index.html">Return to blog</a></p>
+                `;
+        }
+      }
+    </script>
+  </body>
+</html>
