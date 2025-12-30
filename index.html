@@ -104,13 +104,11 @@
             <div class="blog-trailer">
               <h2>LATEST TRAILER</h2>
               <div class="trailer-frame">
-                <iframe 
-                  src="https://www.youtube.com/embed/R9wYNI5y7bw" 
-                  title="Calamity Mod Trailer" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowfullscreen>
-                </iframe>
+                <lite-youtube videoid="R9wYNI5y7bw" playlabel="Play: Calamity Mod Trailer">
+                  <a href="https://www.youtube.com/watch?v=R9wYNI5y7bw" class="lty-playbtn" title="Play Video">
+                    <span class="lyt-visually-hidden">Play Video: Calamity Mod Trailer</span>
+                  </a>
+                </lite-youtube>
               </div>
               <p class="trailer-description">
                 The trailer for the latest released major update, Bountiful Harvest.
@@ -263,6 +261,7 @@
       </div>
     </footer>
 
+    <script src="js/lite-youtube.js"></script>
     <script src="js/blog.js"></script>
     <script src="js/theme.js"></script>
   </body>
