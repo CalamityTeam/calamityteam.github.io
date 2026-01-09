@@ -172,7 +172,6 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 body {
@@ -181,7 +180,6 @@ body {
   color: var(--text-primary);
   line-height: 1.6;
   min-height: 100vh;
-  overflow-x: hidden;
 }
 
 a {
@@ -3297,6 +3295,8 @@ footer p a:hover {
   position: sticky;
   top: 100px;
   padding: 30px;
+  z-index: 50;
+  align-self: start;
 }
 
 .calamity-download-sidebar .download-title {
@@ -3415,9 +3415,13 @@ footer p a:hover {
   }
 
   .calamity-download-sidebar {
-    position: static;
     max-width: 350px;
     margin: 0 auto;
+    position: static;
+  }
+
+  .download-action {
+    position: static;
   }
 
   .about-blurb-content {
@@ -3639,6 +3643,8 @@ footer p a:hover {
   gap: 15px;
   position: sticky;
   top: 100px;
+  z-index: 50;
+  align-self: start;
 }
 
 .steam-button {
@@ -3705,10 +3711,6 @@ footer p a:hover {
 
   .download-title {
     justify-content: center;
-  }
-
-  .download-action {
-    position: static;
   }
 
   .feature-list {
@@ -4401,6 +4403,7 @@ footer p a:hover {
   }
 
   /* Disable fixed backgrounds on mobile for better scrolling performance */
+  /* I can't tell if this is actually doing anything, but it helped doze */
   [data-theme="abyssal"] body,
   [data-theme="devouring"] body {
     background-attachment: scroll;
@@ -4411,6 +4414,7 @@ footer p a:hover {
   }
 
   /* Reduce video effects on mobile for performance */
+  /* This part actually does things after some testing. Do not remove it */
   .hero-video-bg {
     filter: brightness(0.35);
     transform: translate(-50%, -50%) scale(1.05);
