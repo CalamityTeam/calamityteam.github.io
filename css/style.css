@@ -612,6 +612,48 @@ header::after {
   min-width: 0;
 }
 
+.blog-posts-header {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.blog-posts-header h2 {
+  margin-bottom: 0;
+}
+
+.catalog-link {
+  margin-left: auto;
+  margin-bottom: 6px;
+  padding: 8px 16px;
+  border-radius: 0;
+  border: 1px solid rgba(var(--accent-r), var(--accent-g), var(--accent-b), 0.4);
+  background: rgba(var(--accent-r), var(--accent-g), var(--accent-b), 0.12);
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+  clip-path: polygon(
+    10px 0,
+    100% 0,
+    100% calc(100% - 10px),
+    calc(100% - 10px) 100%,
+    0 100%,
+    0 10px
+  );
+}
+
+.catalog-link:hover {
+  background: rgba(var(--accent-r), var(--accent-g), var(--accent-b), 0.22);
+  color: var(--text-primary);
+  box-shadow: 0 0 12px rgba(var(--accent-r), var(--accent-g), var(--accent-b), 0.35);
+}
+
 .blog-trailer {
   position: sticky;
   top: 100px;
@@ -818,6 +860,131 @@ lite-youtube.lyt-activated .lty-playbtn {
 
 .post-card-link:hover {
   text-decoration: none;
+}
+
+.post-catalog-section {
+  padding: 80px 0 100px;
+  min-height: calc(100vh - 320px);
+  position: relative;
+  overflow: hidden;
+}
+
+.post-catalog-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 240px;
+  background: linear-gradient(
+    180deg,
+    rgba(var(--accent-r), var(--accent-g), var(--accent-b), 0.18) 0%,
+    rgba(var(--accent-r), var(--accent-g), var(--accent-b), 0.08) 40%,
+    transparent 100%
+  );
+  pointer-events: none;
+  z-index: 0;
+  mix-blend-mode: exclusion;
+}
+
+.post-catalog-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+      rgba(var(--accent-r), var(--accent-g), var(--accent-b), 0.1) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(var(--accent-r), var(--accent-g), var(--accent-b), 0.1) 1px,
+      transparent 1px
+    );
+  background-size: 40px 40px;
+  pointer-events: none;
+  opacity: 0.5;
+  z-index: 0;
+
+}
+
+.post-catalog-section > .container {
+  position: relative;
+  z-index: 1;
+}
+
+.post-catalog-title {
+  font-size: 2.6rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  position: relative;
+  display: inline-block;
+}
+
+.post-catalog-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 120px;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    var(--accent-primary),
+    rgba(var(--accent-r), var(--accent-g), var(--accent-b), 0.2)
+  );
+  box-shadow: 0 0 12px rgba(var(--accent-r), var(--accent-g), var(--accent-b), 0.4);
+}
+
+.post-catalog-intro {
+  color: var(--text-secondary);
+  max-width: 720px;
+}
+
+.post-catalog-list {
+  list-style: none;
+  padding: 0;
+  margin: 30px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.post-catalog-item {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  padding: 14px 18px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+}
+
+.post-catalog-details {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.post-catalog-date {
+  min-width: 190px;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.post-catalog-link {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.post-catalog-link:hover {
+  color: var(--accent-secondary);
+}
+
+.post-catalog-excerpt {
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.6;
 }
 
 .post-card {
@@ -1463,6 +1630,40 @@ lite-youtube.lyt-activated .lty-playbtn {
   box-shadow: 0 0 15px
       rgba(var(--accent-r), var(--accent-g), var(--accent-b), 0.6),
     0 0 30px rgba(var(--accent-r), var(--accent-g), var(--accent-b), 0.3);
+}
+
+.post-body h2.glow-bars {
+  text-align: center;
+  border-left: none;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(var(--accent-r), var(--accent-g), var(--accent-b), 0.08) 20%,
+    rgba(var(--accent-r), var(--accent-g), var(--accent-b), 0.16) 50%,
+    rgba(var(--accent-r), var(--accent-g), var(--accent-b), 0.08) 80%,
+    transparent 100%
+  );
+}
+
+.post-body h2.glow-bars::before,
+.post-body h2.glow-bars::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: var(--accent-primary);
+  box-shadow: 0 0 15px
+      rgba(var(--accent-r), var(--accent-g), var(--accent-b), 0.6),
+    0 0 30px rgba(var(--accent-r), var(--accent-g), var(--accent-b), 0.3);
+}
+
+.post-body h2.glow-bars::before {
+  left: 0;
+}
+
+.post-body h2.glow-bars::after {
+  right: 0;
 }
 
 .post-body h3 {
@@ -2554,6 +2755,15 @@ footer p a:hover {
 
   .hero p {
     font-size: 1rem;
+  }
+
+  .post-catalog-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .post-catalog-date {
+    min-width: unset;
   }
 
   .blog-layout {
@@ -3833,11 +4043,44 @@ footer p a:hover {
   gap: 12px;
 }
 
+.musician-entry-inline {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  margin: 0 4px;
+  line-height: 1;
+  height: 1em;
+  overflow: visible;
+  white-space: nowrap;
+}
+
+.musician-entry-inline .musician-name {
+  display: inline-block;
+  flex: 0 0 auto;
+  line-height: 1.2;
+  vertical-align: middle;
+}
+
+.musician-entry-inline .musician-avatar {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .musician-avatar {
   width: 36px;
   height: 36px;
   border-radius: 50%;
   object-fit: cover;
+  display: inline-block;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  clip-path: none;
+}
+
+.post-body .musician-avatar {
+  border-radius: 50%;
+  clip-path: circle(50% at 50% 50%);
 }
 
 .musician-name {
@@ -3845,6 +4088,18 @@ footer p a:hover {
   font-size: 0.9rem;
   color: var(--text-primary);
   font-weight: 500;
+}
+
+.musician-entry .musician-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.post-body .musician-name {
+  font-size: inherit;
+  font-weight: inherit;
 }
 
 .musician-social {

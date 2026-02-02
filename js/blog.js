@@ -1,4 +1,11 @@
 const POSTS_INDEX = [
+    {
+    slug: "brainstormtrailer",
+    title: "Brainstorm comes out next Friday!",
+    date: "2026-01-30",
+    excerpt: "The Brainstorm update releases February 6th, 2026! Check out the trailer for it.",
+    tags: ["announcement", "news"],
+  },
   {
     slug: "christmas2025",
     title: "Christmas 2025 Newsletter",
@@ -69,7 +76,7 @@ function renderPosts(container) {
     return;
   }
 
-  const markup = POSTS_INDEX.map(
+  const markup = POSTS_INDEX.slice(0, 1).map(
     (post) => `
         <a href="post.html?post=${post.slug}" class="post-card-link">
           <article class="post-card">
@@ -85,10 +92,42 @@ function renderPosts(container) {
   container.innerHTML = markup;
 }
 
+function renderPostCatalog(container) {
+  if (POSTS_INDEX.length === 0) {
+    container.innerHTML =
+      '<li class="no-posts">No posts yet. Check back soon!</li>';
+    return;
+  }
+
+  const markup = POSTS_INDEX.map(
+    (post) => `
+        <li class="post-catalog-item">
+          <time class="post-catalog-date" datetime="${post.date}">${formatDate(
+            post.date
+          )}</time>
+          <div class="post-catalog-details">
+            <a href="post.html?post=${post.slug}" class="post-catalog-link">
+              ${post.title}
+            </a>
+            <p class="post-catalog-excerpt">${post.excerpt}</p>
+          </div>
+        </li>
+    `
+  ).join("");
+
+  container.innerHTML = markup;
+}
+
 function loadPosts() {
   const postsContainer = document.getElementById("posts-list");
   if (!postsContainer) return;
   renderPosts(postsContainer);
+}
+
+function loadPostCatalog() {
+  const catalogContainer = document.getElementById("post-catalog");
+  if (!catalogContainer) return;
+  renderPostCatalog(catalogContainer);
 }
 
 function initMobileMenu() {
@@ -104,5 +143,6 @@ function initMobileMenu() {
 
 document.addEventListener("DOMContentLoaded", () => {
   loadPosts();
+  loadPostCatalog();
   initMobileMenu();
 });
