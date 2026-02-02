@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" class="no-transitions">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post Catalog - Calamity Mod</title>
+    <meta name="description" content="Browse all historical Calamity Mod blog posts." />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://calamitymod.com/post-catalog.html" />
+    <meta property="og:title" content="Post Catalog - Calamity Mod" />
+    <meta property="og:description" content="Browse all historical Calamity Mod blog posts." />
+    <meta property="og:image" content="https://calamitymod.com/img/logo.svg" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://calamitymod.com/post-catalog.html" />
+    <meta name="twitter:title" content="Post Catalog - Calamity Mod" />
+    <meta name="twitter:description" content="Browse all historical Calamity Mod blog posts." />
+    <meta name="twitter:image" content="https://calamitymod.com/img/logo.svg" />
+
+    <link rel="icon" type="image/png" href="/img/favicon.png" />
+    <style>
+      html.loading { visibility: hidden; }
+      html.loaded { visibility: visible; }
+    </style>
+    <script>
+      document.documentElement.classList.add("loading");
+      (function () {
+        var theme = localStorage.getItem("calamity-theme") || "devouring";
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+    <link
+      rel="stylesheet"
+      href="css/style.css"
+      onload="document.documentElement.classList.remove('loading');document.documentElement.classList.add('loaded');"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html" class="logo">
+          <img src="/img/logo.svg" alt="Calamity Mod" />
+        </a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="download.html">Download</a></li>
+          <li><a href="music.html">Music</a></li>
+          <li><a href="post-catalog.html" class="active">Posts</a></li>
+          <li>
+            <a href="https://discord.gg/calamity" target="_blank">Discord</a>
+          </li>
+          <li>
+            <a
+              href="https://calamitymod.wiki.gg/wiki/Calamity_Mod_Wiki"
+              target="_blank"
+              >Wiki</a
+            >
+          </li>
+          <li>
+            <a href="https://www.patreon.com/CalamityMod" target="_blank"
+              >Patreon</a
+            >
+          </li>
+        </ul>
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="post-catalog-section">
+        <div class="container">
+          <h1 class="post-catalog-title">Post Catalog</h1>
+          <p class="post-catalog-intro">
+            A dated list of all historical Calamity Mod blog posts.
+          </p>
+          <ul id="post-catalog" class="post-catalog-list">
+            <li class="loading">Absorbing the Auric Soul of Information...</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-led-strip"></div>
+      <div class="container">
+        <div class="footer-content">
+          <img src="/img/logo.svg" alt="Calamity Mod" class="footer-logo" />
+          <p>
+            The official website of the Calamity Mod for
+            <a href="https://terraria.org/" target="_blank">Terraria</a>.
+            Terraria and all its content is copyrighted by Re-Logic.
+          </p>
+          <p class="credits">
+            Art by
+            <a href="https://x.com/NiitroDS" target="_blank">Nitro</a>.
+            Original site by
+            <a href="https://twitter.com/loohney" target="_blank">Loohney</a>.
+          </p>
+          <div class="footer-links">
+            <a href="https://www.patreon.com/CalamityMod" target="_blank"
+              >Patreon</a
+            >
+            <a
+              href="https://github.com/CalamityTeam/CalamityModPublic"
+              target="_blank"
+              >GitHub</a
+            >
+            <a href="https://youpads.com/calamity" target="_blank">Merch</a>
+            <a
+              href="https://www.gimmeswag.com/collections/calamity-mod"
+              target="_blank"
+              >Plushies</a
+            >
+          </div>
+          <div class="footer-emails">
+            <div class="footer-email">
+              <span class="email-label">General inquiries:</span>
+              <a href="mailto:calamitymodteam@gmail.com"
+                >calamitymodteam@gmail.com</a
+              >
+            </div>
+            <div class="footer-email">
+              <span class="email-label">Business inquiries:</span>
+              <a href="mailto:calamitymodbusiness@gmail.com"
+                >calamitymodbusiness@gmail.com</a
+              >
+            </div>
+          </div>
+          <div class="theme-selector">
+            <span class="theme-selector-label">Theme</span>
+            <div class="theme-options">
+              <div class="theme-option active" data-theme="calamitous">
+                <span class="theme-dot"></span>
+                Calamitous
+              </div>
+              <div class="theme-option" data-theme="devouring">
+                <span class="theme-dot"></span>
+                Devouring
+              </div>
+              <div class="theme-option" data-theme="abyssal">
+                <span class="theme-dot"></span>
+                Abyssal
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/blog.js"></script>
+    <script src="js/theme.js"></script>
+  </body>
+</html>
