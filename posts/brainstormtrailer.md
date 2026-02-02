@@ -1,6 +1,6 @@
 ---
 title: Brainstorm Trailer
-date: 2026-01-30
+date: 2026-02-02
 author: CDMusic
 tags: [announcement, news]
 ---
@@ -13,9 +13,9 @@ tags: [announcement, news]
 
 <div class="text-center">Hiya folks!</div>
 
-Surprise surprise, <b>Brainstorm</b> is only 4 days away from being at your doorstep!
 
-<div class="text-center"><b>In case you missed it</b>, you can watch the trailer here:</div>
+
+<div class="text-center">Surprise surprise, <b>Brainstorm</b> is only 4 days away from being at your doorstep! </br><b>In case you missed it</b>, you can watch the trailer here:</div>
 <figure class="video-center">
   <div class="video-wrapper">
     <iframe src="https://www.youtube.com/embed/oQ74IZaj5Q8" title="YouTube Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
