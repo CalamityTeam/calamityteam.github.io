@@ -2,7 +2,7 @@ const POSTS_INDEX = [
     {
     slug: "brainstormtrailer",
     title: "Brainstorm comes out next Friday!",
-    date: "2026-01-30",
+    date: "2026-02-02",
     excerpt: "The Brainstorm update releases February 6th, 2026! Check out the trailer for it.",
     tags: ["announcement", "news"],
   },
