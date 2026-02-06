@@ -1,7 +1,7 @@
 const POSTS_INDEX = [
   {
     slug: "brainstormrelease",
-    title: "Brainstorm Post-Mortem",
+    title: "Brainstorm, Post-Mortem",
     date: "2026-02-06",
     excerpt: "The Brainstorm update has been released! Read additional developer commentary, and see the changelog. Throw out the sunk with the seawater!",
     tags: ["announcement", "news"],
