@@ -139,7 +139,7 @@ This update will contain all of the **non-Sunken Sea related content** that woul
   </div>
 </div>
 <p class="text-center">
-<a>This totals to around <strong>three thousand</strong> assorted changes.</a>
+<a href="https://calamitymod.wiki.gg/wiki/2.1">This totals to around <strong>three thousand</strong> assorted changes.</a>
 </p>
 <div class="callout callout-warning">
   <strong>Please note:</strong> This update will <strong>not</strong> include the Sunken Sea Overhaul, which will come later as part of a separate update.
