@@ -1,5 +1,5 @@
 ---
-title: Brainstorm Post-Mortem
+title: Brainstorm, Post-Mortem
 date: 2026-02-06
 author: CDMusic
 tags: [announcement, news]
