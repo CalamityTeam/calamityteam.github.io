@@ -151,9 +151,7 @@ Many of you are likely thinking, “What about Bigger & Boulder? What about the 
 </div> 
 <div class="text-center"></div>
 
-<div class="text-center">
 It is far too early for us to even make guesses about porting Calamity to Terraria and tModLoader 1.4.5.
-</div>
 
 Calamity Mod __*will*__ be available as soon as possible for tModLoader for 1.4.5, but it is not definite when tModLoader itself will have a complete, viable port for Calamity Mod to port to.
 
