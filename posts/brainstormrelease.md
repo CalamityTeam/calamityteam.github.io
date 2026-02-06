@@ -74,18 +74,33 @@ This fight has been developed over the past eight months, and has come quite a l
 <p class="text-center">
 Going into this I had a couple main ideas on what I wanted to do for this rework, but the main one was having the Creepers play a far more important role in the fight. This can be seen all throughout Phase 1 of the fight, with the Creepers being the main threats that need to be evaded and slain. To increase the feel of their presence, I came up with the idea to have them physically connected to the Brain via the tendrils. These tendrils went through a lot of revisions to the look you all see in-game:
 </p>
+  <div class="img-grid img-grid-2">
+  <figure>
+    <img src="/posts/brainstormrelease_assets/tendril_before.png" alt="First Iteration Tendrils" />
+  </figure>
+    <figure>
+    <img src="/posts/brainstormrelease_assets/bootiful.png" alt="Altered Positioning Tendril Concept Art" />
+  </figure>
+</div>
+<div class="img-grid img-grid-2">
+  <figure class="grid-span-2">
+    <img src="/posts/brainstormrelease_assets/tendril_after.png" alt="Later Iteration Tendrils" />
+    <figcaption>Originally, I imagined the ‘tendrils’ as more of a psychic connection from the Creepers to the Brain, however as I discussed the ideas for the fight with the rest of the team (<a href="/posts/brainstormrelease_assets/bootiful.png">along with a beautiful piece of concept art by Fryzahh</a>), changing them to actually be physical connections made the most sense.</figcaption>
+  </figure>
+</div>
+    </figure>
+<p class="text-center">
+Due to shaking up how the fight plays, and having Brain of Cthulhu be damagable in Phase 1, I felt that it’d be more intuitive to give it a visual for when it's immune which became the Psychic Shield seen in the fight. As you can see by the video, it too came a long way.
+</p>
     <figure class="img-center">
     <div class="video-center">
   <video controls preload="metadata">
     <source src="/posts/brainstormrelease_assets/ShieldShaderEvolutionDraft3.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
-  <figcaption>Originally, I imagined the ‘tendrils’ as more of a psychic connection from the Creepers to the Brain, however as I discussed the ideas for the fight with the rest of the team (<a href="/posts/brainstormrelease_assets/bootiful.png">along with a beautiful piece of concept art by Fryzahh</a>), changing them to actually be physical connections made the most sense.</figcaption>
+  <figcaption>The first proper iteration of the shield’s visuals made use of a general shader that you can see employed elsewhere, such as the newly revived Stratus Sphere, however, it became clear that to better get the idea behind the shield across, a unique shader was needed.</figcaption>
 </div>
     </figure>
-<p class="text-center">
-Due to shaking up how the fight plays, and having Brain of Cthulhu be damagable in Phase 1, I felt that it’d be more intuitive to give it a visual for when it's immune which became the Psychic Shield seen in the fight. As you can see by the video, it too came a long way.
-</p>
 
 <p class="text-center">
 The development process of this fight was very iterative. Many attacks changed radically from their initial conception to how they appear in-game now; with some attacks even ultimately being scrapped. This is pretty natural for developing a cohesive and engaging fight. Here’s a look at some attacks that ultimately didn’t make the cut:
