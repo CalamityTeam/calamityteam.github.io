@@ -13,7 +13,7 @@ tags: [announcement, news]
 
 Hiya folks!
 
-Happy New Year, and Happy Brainstorm release day! We’re thrilled to finally bring this monumental update to you, and we hope you enjoy what we have to offer in this exciting new era of Calamity.
+Happy Brainstorm release day! We’re thrilled to finally bring this monumental update to you, and we hope you enjoy what we have to offer in this exciting new era of Calamity.
 
 If you haven't already seen the trailer:
 <div class="video-center">
