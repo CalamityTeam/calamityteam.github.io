@@ -21,12 +21,12 @@ If you haven't already seen the trailer:
     <iframe src="https://www.youtube.com/embed/oQ74IZaj5Q8" title="YouTube Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
-<figcaption>The Calamity Team does not condone alcohol abuse!</figcaption>
+<figcaption>The Calamity Team does not condone alcohol abuse. Please drink responsibly, both in-game and in real life.</figcaption>
 <div class="divider"></div>
 <blockquote class="quote-center">
 Update 2.1: Brainstorm is our largest update to date, featuring close to 4,000 changes across the board. 
 </blockquote>
-  <div class="column text-center">
+  <div class="column">
     <h2>Here’s just a few things we’ve included:</h2>
     <ul>
       <li>Reworks to several dozen weapons and accessories.</li>
@@ -44,12 +44,12 @@ Update 2.1: Brainstorm is our largest update to date, featuring close to 4,000 c
 </div>
 
 <div class="callout callout-danger text-center">
-  <strong>We reiterate:</strong> While this update features some sunken sea tiles, this update will <strong>not</strong> include the Sunken Sea Overhaul, which will come later as part of a separate update.
+  <strong>We reiterate:</strong> While this update features some Sunken Sea tiles, this update will <strong>not</strong> include the Sunken Sea Overhaul, which will come later as part of a separate update.
 </div>
 
-If you do find any bugs, please join the Calamity Mod Discord server and report them in the Bug Reports forum! Assistance in bug hunting is greatly appreciated, especially for the nefarious multiplayer bugs - we typically never find them all before release.
+If you do find any bugs, please join the <a href="https://discord.gg/calamity">Calamity Mod Discord server</a> and report them in the Bug Reports forum! Assistance in bug hunting is greatly appreciated, especially for the nefarious multiplayer bugs - we typically never find them all before release.
 
-<div class="divider-text"><span>CALAMITY'S FUTURE</span></div>
+<div class="divider-text"><span>THE FUTURE OF CALAMITY...</span></div>
 
 ## So, where do we go from here?
 With <b>Brainstorm</b> released, the team will be focused on releasing hotfixes over the coming weeks to address any critical issues that arise.
@@ -61,7 +61,7 @@ On the topic of Revengeance Mode vanilla boss reworks, the mastermind behind the
 <blockquote>
 <figure class="img-center img-clean img-medium">
   <img src="/posts/brainstormrelease_assets/BigE.gif" width="100" alt="Calamity Mod Logo" />
-  <figcaption>An animated gif of a dancing letter, which is an biographical portrait depicting Big E.</figcaption>
+  <figcaption>An animated GIF of a dancing letter, which is an biographical portrait depicting Big E.</figcaption>
 </figure>
 
 <p class="text-center">Hi all! It's been quite the hectic last few weeks as we all worked to get this update ready for release, and I’m so excited that it's finally out and in your hands! It's my pleasure to share a bit of a peek behind the curtain on the development of one of this update’s major additions: the reworked Brain of Cthulhu fight for Revengeance+ difficulties. If you haven’t gotten the chance to fight it for yourself yet, this is your spoiler warning!
