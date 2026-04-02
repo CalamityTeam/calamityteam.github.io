@@ -1,16 +1,26 @@
 const POSTS_INDEX = [
   {
+    slug: "hogwild",
+    title: "Calamity goes Hog Wild!",
+    date: "2026-04-02",
+    excerpt:
+      "It's swine time.",
+    tags: ["announcement", "news"],
+  },
+  {
     slug: "brainstormrelease",
     title: "Brainstorm, Post-Mortem",
     date: "2026-02-06",
-    excerpt: "The Brainstorm update has been released! Read additional developer commentary, and see the changelog. Throw out the sunk with the seawater!",
+    excerpt:
+      "The Brainstorm update has been released! Read additional developer commentary, and see the changelog. Throw out the sunk with the seawater!",
     tags: ["announcement", "news"],
   },
-    {
+  {
     slug: "brainstormtrailer",
     title: "Brainstorm comes out next Friday!",
     date: "2026-02-02",
-    excerpt: "The Brainstorm update releases February 6th, 2026! Check out the trailer for it.",
+    excerpt:
+      "The Brainstorm update releases February 6th, 2026! Check out the trailer for it.",
     tags: ["announcement", "news"],
   },
   {
@@ -83,8 +93,9 @@ function renderPosts(container) {
     return;
   }
 
-  const markup = POSTS_INDEX.slice(0, 1).map(
-    (post) => `
+  const markup = POSTS_INDEX.slice(0, 1)
+    .map(
+      (post) => `
         <a href="post.html?post=${post.slug}" class="post-card-link">
           <article class="post-card">
               <h3>${post.title}</h3>
@@ -93,8 +104,9 @@ function renderPosts(container) {
               <span class="read-more">Read More</span>
           </article>
         </a>
-    `
-  ).join("");
+    `,
+    )
+    .join("");
 
   container.innerHTML = markup;
 }
@@ -110,7 +122,7 @@ function renderPostCatalog(container) {
     (post) => `
         <li class="post-catalog-item">
           <time class="post-catalog-date" datetime="${post.date}">${formatDate(
-            post.date
+            post.date,
           )}</time>
           <div class="post-catalog-details">
             <a href="post.html?post=${post.slug}" class="post-catalog-link">
@@ -119,7 +131,7 @@ function renderPostCatalog(container) {
             <p class="post-catalog-excerpt">${post.excerpt}</p>
           </div>
         </li>
-    `
+    `,
   ).join("");
 
   container.innerHTML = markup;
