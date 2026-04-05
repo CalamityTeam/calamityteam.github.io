@@ -24,27 +24,31 @@ We hope you’ve been enjoying the Brainstorm update. We’re very pleased to se
 We have an appetiser for you guys to chew on that will be coming in the near future!
 </div>
 
+<h2 class="text-center">Version 2.2 - “Hog Wild”</h2>
+
 <blockquote class="quote-center">
 Calamity will be releasing the “Hog Wild” update soon!
 </blockquote>
 
-<h2 class="text-center">Update 2.2, “<i><a>Hog Wild</a></i>”.</h2>
-
 “<i><a>Hog Wild</a></i>”. will be a smaller update which will introduce some fun and wacky new items, accessories and critters, as well as expand on a few existing items added in the Brainstorm update.
 
-The main course of this meal is some new flavors of pork! The Piggy and Golden Piggy have both received some love, alongside some new friends.
-
-<figure class="img-center img-clean img-medium">
-  <img src="/posts/brainstormrelease_assets/BigE.gif" width="100" alt="Horrible Hogs" />
+The main course of this meal is some new flavors of pork! The Piggy has received some love, alongside some new friends.
+<div class="video-center">
+  <video controls preload="metadata">
+    <source src="\posts\hogwild_assets\Divine_Swine.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
   <figcaption>A Tale of a Cruel Hog.</figcaption>
-</figure>
+</div>
 
 ### Test your luck with the Tinkerer’s Voucher. *May the odds ever be in your favour.*
-
-<figure class="img-center img-clean img-medium">
-  <img src="/posts/brainstormrelease_assets/BigE.gif" width="100" alt="Voucher" />
+<div class="video-center">
+  <video controls preload="metadata">
+    <source src="\posts\hogwild_assets\Tinkerer's_Voucher.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
   <figcaption>Let's go gambling!</figcaption>
-</figure>
+</div>
 
 ### Pull out the Old Trusty Rod and fish up some surprises.
 
@@ -54,13 +58,19 @@ The main course of this meal is some new flavors of pork! The Piggy and Golden P
 </figure>
 
 ### Unearth the Eleumphant from the ice, and freeze enemies in their tracks.
-
-<figure class="img-center img-clean img-medium">
-  <img src="/posts/brainstormrelease_assets/BigE.gif" width="100" alt="Eleumphant" />
+<div class="video-center">
+  <video controls preload="metadata">
+    <source src="\posts\hogwild_assets\Elumphant_Showcase.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
   <figcaption>Mega Mammoth Cube.</figcaption>
-</figure>
+</div>
+
+<div class="divider-text"><span>One hog of a time.</span></div>
 
 This update has been something we’ve enjoyed making in the time between our larger, more serious content, and we look forward to seeing you all mess around with these new goodies!
+
+(The builds featured in these teasers were made by LordMetarex, TYESKI and StipulateVenus for the purposes of showcasing these new items, and are not part of the new update.)
 
 <div class="divider"></div>
 
