@@ -73,6 +73,8 @@ The main course of this meal is some new flavors of pork! The Piggy has received
 
 <div class="divider-text"><span>One hog of a time.</span></div>
 
+But that's not all! There's a bunch more oddities arriving for you to get your hands on as well. It'd be silly if we didn't leave some surprises.
+
 This update has been something we’ve enjoyed making in the time between our larger, more serious content, and we look forward to seeing you all mess around with these new goodies!
 
 (The builds featured in these teasers were made by LordMetarex, TYESKI and StipulateVenus for the purposes of showcasing these new items, and are not part of the new update.)
