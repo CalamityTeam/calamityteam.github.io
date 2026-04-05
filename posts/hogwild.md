@@ -12,7 +12,7 @@ tags: [announcement, news]
 
 Hiya folks!
 
-Happy holidays! We hope you’ve been enjoying the Brainstorm update. We’re very pleased to see the response the update has received over the past couple of months. Thank you very much for your continued support through this new era of Calamity history.
+Happy Easter to those who celebrate! We hope you’ve been enjoying the Brainstorm update. We’re very pleased to see the response the update has received over the past couple of months. Thank you very much for your continued support through this new era of Calamity history.
 
 <figure class="img-center">
   <img src="\posts\hogwild_assets\piggy_takeover.png" alt="piggy_takeover" />
