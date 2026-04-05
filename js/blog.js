@@ -2,9 +2,9 @@ const POSTS_INDEX = [
   {
     slug: "hogwild",
     title: "Calamity goes Hog Wild!",
-    date: "2026-04-02",
+    date: "2026-04-05",
     excerpt:
-      "It's swine time.",
+      "A new update hogs the spotlight this spring!",
     tags: ["announcement", "news"],
   },
   {
