@@ -52,10 +52,13 @@ The main course of this meal is some new flavors of pork! The Piggy has received
 
 ### Pull out the Old Trusty Rod and fish up some surprises.
 
-<figure class="img-center img-clean img-medium">
-  <img src="/posts/brainstormrelease_assets/BigE.gif" width="100" alt="Me Old Trusty Rod!" />
+<div class="video-center">
+  <video controls preload="metadata">
+    <source src="\posts\hogwild_assets\Trusty_Old _Rod.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
   <figcaption>Fish fear me.</figcaption>
-</figure>
+</div>
 
 ### Unearth the Eleumphant from the ice, and freeze enemies in their tracks.
 <div class="video-center">
