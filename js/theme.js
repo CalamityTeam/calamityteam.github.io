@@ -1,5 +1,5 @@
 const STORAGE_KEY = "calamity-theme";
-const DEFAULT_THEME = "devouring";
+const DEFAULT_THEME = "draconic";
 
 function getStoredTheme() {
   return localStorage.getItem(STORAGE_KEY) || DEFAULT_THEME;
