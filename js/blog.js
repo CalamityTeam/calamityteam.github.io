@@ -1,4 +1,12 @@
 const POSTS_INDEX = [
+    {
+    slug: "anniversary",
+    title: "Celebrating 10 years of Calamity!",
+    date: "2026-06-01",
+    excerpt:
+      "Past and future combine in a new update thanking the community!",
+    tags: ["announcement", "news"],
+  },
   {
     slug: "hogwild",
     title: "Calamity goes Hog Wild!",
