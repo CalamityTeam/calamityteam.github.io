@@ -126,7 +126,7 @@ The development process of this fight was very iterative. Many attacks changed r
 </div>
     </figure>
 <p class="text-center">
-I hope you enjoyed this look into how this boss was made! It’s still crazy to me how something I worked on went from a smaller side project to being one of the main additions for an update… I hope y’all can look forward to what else we have in store for the future, as well as more insights like this!
+I hope you enjoyed this look into how this boss was made! It’s still crazy to me how something I worked on went from a smaller side project to being one of the main additions for an update... I hope y’all can look forward to what else we have in store for the future, as well as more insights like this!
 </p>
 </blockquote>
 
