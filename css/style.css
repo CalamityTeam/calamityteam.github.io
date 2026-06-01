@@ -1578,44 +1578,41 @@ lite-youtube.lyt-activated .lty-playbtn {
 
 [data-theme="draconic"] u {
   text-decoration: none;
-  position: relative;
   padding-bottom: 2px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='8'%3E%3Cpath d='M0,5 L4,2 L8,7 L12,3 L17,1 L21,6 L24,2 L29,7 L33,3 L38,1 L42,5 L45,2 L50,6 L54,1 L58,4 L62,7 L66,2 L71,5 L75,1 L80,4' stroke='%2355DDFF' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: repeat-x;
+  background-size: 80px 8px;
+  background-position: 0px 100%;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  animation: draconic-lightning-bg 0.7s steps(1) infinite;
 }
 
 [data-theme="draconic"] u::after {
-  content: "";
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 100%;
-  height: 8px;
+  content: none;
+}
+
+[data-theme="draconic"] .post-body a {
+  padding-bottom: 2px;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='8'%3E%3Cpath d='M0,5 L4,2 L8,7 L12,3 L17,1 L21,6 L24,2 L29,7 L33,3 L38,1 L42,5 L45,2 L50,6 L54,1 L58,4 L62,7 L66,2 L71,5 L75,1 L80,4' stroke='%2355DDFF' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
   background-repeat: repeat-x;
-  background-size: 80px 8px;
-  background-position: 0px 0px;
-  filter: drop-shadow(0 0 3px rgba(85, 221, 255, 0.7));
-  animation: draconic-lightning 0.7s steps(1) infinite;
-  pointer-events: none;
+  background-size: 80px 0px;
+  background-position: 0px 100%;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 
 [data-theme="draconic"] .post-body a::after {
-  height: 8px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='8'%3E%3Cpath d='M0,5 L4,2 L8,7 L12,3 L17,1 L21,6 L24,2 L29,7 L33,3 L38,1 L42,5 L45,2 L50,6 L54,1 L58,4 L62,7 L66,2 L71,5 L75,1 L80,4' stroke='%2355DDFF' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-  background-repeat: repeat-x;
+  content: none;
+}
+
+[data-theme="draconic"] .post-body a:hover {
   background-size: 80px 8px;
-  background-position: 0px 0px;
-  filter: drop-shadow(0 0 3px rgba(85, 221, 255, 0.7));
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: none;
-  animation: none;
+  animation: draconic-lightning-bg 0.3s steps(1) infinite;
 }
 
 [data-theme="draconic"] .post-body a:hover::after {
-  transform: scaleX(1);
-  filter: drop-shadow(0 0 5px rgba(85, 221, 255, 0.9))
-    drop-shadow(0 0 10px rgba(85, 221, 255, 0.4));
-  animation: draconic-lightning 0.3s steps(1) infinite;
+  content: none;
 }
 
 @keyframes draconic-lightning {
@@ -1654,6 +1651,45 @@ lite-youtube.lyt-activated .lty-playbtn {
   }
   100% {
     background-position: 0px 0px;
+  }
+}
+
+@keyframes draconic-lightning-bg {
+  0% {
+    background-position: 0px 100%;
+  }
+  8% {
+    background-position: 53px 100%;
+  }
+  17% {
+    background-position: 21px 100%;
+  }
+  29% {
+    background-position: 67px 100%;
+  }
+  38% {
+    background-position: 12px 100%;
+  }
+  50% {
+    background-position: 44px 100%;
+  }
+  61% {
+    background-position: 75px 100%;
+  }
+  71% {
+    background-position: 30px 100%;
+  }
+  82% {
+    background-position: 58px 100%;
+  }
+  90% {
+    background-position: 7px 100%;
+  }
+  96% {
+    background-position: 40px 100%;
+  }
+  100% {
+    background-position: 0px 100%;
   }
 }
 
