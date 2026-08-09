@@ -7,7 +7,7 @@ tags: [announcement, news, bugfix, whatever, spoiler]
 
 # Calamity Dev Newsletter: Christmas 2025
 
-<cite>Written by CDMusic, edited/revised by Ozzatron + jasper</cite>
+<cite>Written by the Calamity Team, edited/revised by Ozzatron + jasper</cite>
 
 <h2 class="text-center">A Year of Calamity, and an Impending Storm</h2>
 
@@ -192,4 +192,4 @@ Ideally, expect the next newsletter **after the release of both Brainstorm and T
 
 Have a _Happy New Year_, and see you soon!
 
-_- CDMusic, Ozzatron, and The Calamity Team_
+_- Ozzatron and The Calamity Team_

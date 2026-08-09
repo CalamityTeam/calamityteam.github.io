@@ -5,7 +5,7 @@ author: Jasper
 ---
 
 # Calamity Dev Newsletter: June 2026
-<cite>(written by CDMusic and LordMetarex, edited by Ozzatron)</cite>
+<cite>(written by LordMetarex and the Calamity Team, edited by Ozzatron)</cite>
 
 <h2 class="text-center">Celebrating 10 years of Calamity!</h2>
 
@@ -73,13 +73,7 @@ author: Jasper
 
 <h2 class="text-center">A pair of <a>new music drops!</a></h2>
 
-Music has been a key pillar for Calamity throughout its storied history, and we are happy to announce that <span class="musician-entry musician-entry-inline">
-  <img
-    src="/img/musicians/CDMusic.png"
-    alt="CDMusic"
-    class="musician-avatar"
-  />
-</span> <a href="https://linktr.ee/CDMusicOfficial" class="musician-name">CDMusic</a> and <span class="musician-entry musician-entry-inline">
+Music has been a key pillar for Calamity throughout its storied history, and we are happy to announce that the Calamity Team and <span class="musician-entry musician-entry-inline">
   <img
     src="/img/musicians/TYESKI.png"
     alt="Tyeski"
@@ -91,13 +85,7 @@ Music has been a key pillar for Calamity throughout its storied history, and we 
 
 <figure class="img-center img-clean">
   <img src="/posts/anniversary_assets/fragilityart.png" alt="meats!" />
-  <figcaption><span class="musician-entry musician-entry-inline">
-  <img
-    src="/img/musicians/CDMusic.png"
-    alt="CDMusic"
-    class="musician-avatar"
-  />
-</span> <a href="https://linktr.ee/CDMusicOfficial" class="musician-name">CDMusic</a> will be releasing a song named “fragility”.</br>Credit to tofu and Carnymassacre</figcaption>
+  <figcaption>A song named “fragility” will be released.</br>Credit to tofu and Carnymassacre</figcaption>
 </figure>
 <div class="text-center">
 
@@ -149,4 +137,4 @@ There will be more goodies up for grabs in the near future, but we can’t share
 
 As always, thank you so much for taking your time to read through this one-of-a-kind edition of our newsletter. We hope you’re as excited as we are for all the new things coming to Calamity this month.
 
-_- CDMusic, Ozzatron, and the Calamity Dev Team_
+_- Ozzatron and the Calamity Dev Team_
