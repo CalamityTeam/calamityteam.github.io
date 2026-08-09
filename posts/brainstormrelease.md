@@ -1,13 +1,13 @@
 ---
 title: Brainstorm, Post-Mortem
 date: 2026-02-06
-author: CDMusic
+author: Calamity Team
 tags: [announcement, news]
 ---
 
 # Brainstorm, Post-Mortem
 
-<cite>Written by CDMusic and LordMetarex, edited by Ozzatron + jasper</cite>
+<cite>Written by LordMetarex and the Calamity Team, edited by Ozzatron + jasper</cite>
 
 <h2 class="text-center">Update 2.1: Brainstorm has arrived!</h2>
 
@@ -201,4 +201,4 @@ We hope you enjoy the Brainstorm update, and we hope to see you again soon!
                 </p>
               </div>
 
-_- CDMusic, LordMetarex, Ozzatron and the Calamity Mod Team_
+_- LordMetarex, Ozzatron and the Calamity Mod Team_

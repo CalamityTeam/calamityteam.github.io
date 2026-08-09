@@ -1,12 +1,12 @@
 ---
 title: Calamity goes Hog Wild!
 date: 2026-04-02
-author: CDMusic
+author: Calamity Team
 tags: [announcement, news]
 ---
 
 # Calamity Dev Newsletter: April 2026
-<cite>(written by CDMusic, edited by carnymassacre + Ozzatron)</cite>
+<cite>(written by the Calamity Team, edited by carnymassacre + Ozzatron)</cite>
 
 <h2 class="text-center">Calamity goes Hog Wild!</h2>
 
@@ -91,4 +91,4 @@ That’s all for now. We always appreciate you taking your time to read through 
 
 See you again soon!
 
-_- CDMusic, Ozzatron and the Calamity Mod Team_
+_- Ozzatron and the Calamity Mod Team_

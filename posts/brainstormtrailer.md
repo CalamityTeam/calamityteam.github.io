@@ -1,13 +1,13 @@
 ---
 title: Brainstorm Trailer
 date: 2026-02-02
-author: CDMusic
+author: Calamity Team
 tags: [announcement, news]
 ---
 
 # Update 2.1: Brainstorm is releasing on February 6th!
 
-<cite>Written by CDMusic and LordMetarex, edited by Ozzatron + jasper</cite>
+<cite>Written by LordMetarex and the Calamity Team, edited by Ozzatron + jasper</cite>
 
 <h2 class="text-center">We have a release date!</h2>
 
@@ -31,7 +31,7 @@ A big thank you goes out to <i>moonburn and Bravioli</i> for the editing, <i>moo
     alt="Tyeski"
     class="musician-avatar"
   />
-</span> <a href="https://linktr.ee/tyeski" class="musician-name">TYESKI</a>,</i> for the trailer score, <i>LordMetarex and CDMusic</i> for the script writing, and all the devs who helped capture the footage featured throughout - not to go without mentioning the incredible art created by <i>carnymassacre and _tofuupudding.</i>
+</span> <a href="https://linktr.ee/tyeski" class="musician-name">TYESKI</a>,</i> for the trailer score, <i>LordMetarex and the Calamity Team</i> for the script writing, and all the devs who helped capture the footage featured throughout - not to go without mentioning the incredible art created by <i>carnymassacre and _tofuupudding.</i>
 
 <div class="img-grid img-grid-2">
   <figure class="grid-span-2">
@@ -102,4 +102,4 @@ Here's some trailer builds, not all of them got showcased.
 
 See you on Friday, and expect more communication!
 
-_- CDMusic, LordMetarex, Ozzatron and the Calamity Mod Team_
+_- LordMetarex, Ozzatron and the Calamity Mod Team_
